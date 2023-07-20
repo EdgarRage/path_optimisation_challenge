@@ -133,7 +133,6 @@ def a_star_search(altitude_map, start, goal, model):
 start = (558, 0)
 goal = (200, 559)
 optimal_path = a_star_search(al_map_df.values, start, goal, best_model)
-print(optimal_path)
 
 def write_path_solution(optimal_path, output_csv):
     # Convert the optimal_path to a DataFrame with columns "x_coord" and "y_coord"
